@@ -1,4 +1,4 @@
-import stream from 'stream';
+import stream from "stream";
 
 export class ChunkReader extends stream.Readable {
 	constructor(chunks) {
@@ -9,7 +9,7 @@ export class ChunkReader extends stream.Readable {
 		while (this.chunks.length) {
 			const chunk = this.chunks.shift();
 			if (chunk instanceof Error) {
-				this.emit('error', chunk);
+				this.emit("error", chunk);
 				return;
 			}
 			if (chunk instanceof Function) {

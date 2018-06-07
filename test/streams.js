@@ -1,4 +1,4 @@
-import test from 'ava';
+import test from "ava";
 import StreamWatcher from "stream-watcher";
 import { ChunkReader, NullWriter } from "../lib/streams";
 
