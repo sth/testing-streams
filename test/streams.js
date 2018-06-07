@@ -33,9 +33,8 @@ test("ChunkReader", async t => {
 	watcher.watch(stream);
 
 	t.is(stream.read().toString(), "abc");
-	t.is(stream.read().toString(), "def");
 	t.is(stream.read(), null);
-	await t.notThrows(watcher.finish);
+	await t.throws(watcher.finish, "E");
 });
 
 
