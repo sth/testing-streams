@@ -2,7 +2,7 @@
   "name": "@tejp/testing-streams",
   "version": "0.0.11",
   "description": "Streams for test cases",
-  "main": "src/streams.js",
+  "main": "lib/streams.js",
   "ava": {
     "require": [
       "@babel/polyfill"
