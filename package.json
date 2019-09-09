@@ -1,5 +1,5 @@
 {
-  "name": "testing-streams",
+  "name": "@tejp/testing-streams",
   "version": "0.0.9",
   "description": "Streams for test cases",
   "main": "src/streams.js",
