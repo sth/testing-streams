@@ -11,10 +11,10 @@ test("NullWriter is writable", async t => {
 	stream.write("abc");
 	stream.end("def");
 
-	await t.notThrows(watcher.finish);
+	await t.notThrowsAsync(watcher.finish);
 });
 
-test("ChunkReader", async t => {
+test("ChunkReader chunks", async t => {
 	const watcher = new StreamWatcher();
 
 	const stream = new ChunkReader(["abc", ()=>{}, "def"]);
@@ -23,10 +23,10 @@ test("ChunkReader", async t => {
 	t.is(stream.read().toString(), "abc");
 	t.is(stream.read().toString(), "def");
 	t.is(stream.read(), null);
-	await t.notThrows(watcher.finish);
+	await t.notThrowsAsync(watcher.finish);
 });
 
-test("ChunkReader", async t => {
+test("ChunkReader error", async t => {
 	const watcher = new StreamWatcher();
 
 	const stream = new ChunkReader(["abc", new Error("E")]);
@@ -34,7 +34,7 @@ test("ChunkReader", async t => {
 
 	t.is(stream.read().toString(), "abc");
 	t.is(stream.read(), null);
-	await t.throws(watcher.finish, "E");
+	await t.throwsAsync(watcher.finish, "E");
 });
 
 
