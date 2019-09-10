@@ -1,18 +1,18 @@
 {
   "name": "@tejp/testing-streams",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "Streams for test cases",
   "main": "lib/streams.js",
-  "ava": {
-    "require": [
-      "@babel/polyfill"
-    ]
-  },
   "scripts": {
     "lint": "eslint src/ test/",
     "test": "ava",
     "build": "babel src --out-dir lib",
     "prepublish": "npm run build"
+  },
+  "ava": {
+    "require": [
+      "@babel/polyfill"
+    ]
   },
   "license": "MIT",
   "devDependencies": {
