@@ -1,13 +1,13 @@
 {
   "name": "@tejp/testing-streams",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "Streams for test cases",
   "main": "lib/streams.js",
   "scripts": {
     "lint": "eslint src/ test/",
     "test": "ava",
     "build": "babel src --out-dir lib",
-    "prepublish": "npm run build"
+    "prepublishOnly": "npm run build"
   },
   "ava": {
     "require": [
