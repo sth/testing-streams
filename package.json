@@ -10,17 +10,15 @@
     "prepublishOnly": "npm run build"
   },
   "ava": {
-    "require": [
-      "@babel/polyfill"
-    ]
+    "babel": true
   },
   "license": "MIT",
   "devDependencies": {
+    "@ava/babel": "^1.0.1",
     "@babel/cli": "^7.6.0",
     "@babel/core": "^7.6.0",
-    "@babel/polyfill": "^7.6.0",
     "@babel/preset-env": "^7.6.0",
-    "ava": "^2.3.0",
+    "ava": "^3.15.0",
     "eslint": "^7.17.0",
     "stream-watcher": "^0.2.9"
   },

@@ -34,7 +34,7 @@ test("ChunkReader error", async t => {
 
 	t.is(stream.read().toString(), "abc");
 	t.is(stream.read(), null);
-	await t.throwsAsync(watcher.finish, "E");
+	await t.throwsAsync(watcher.finish, {message: "E"});
 });
 
 
