@@ -1,6 +1,6 @@
 {
   "name": "@tejp/testing-streams",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Streams for test cases",
   "main": "lib/streams.js",
   "scripts": {
