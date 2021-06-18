@@ -1,8 +1,20 @@
 # Changelog
 
-<a name="master"></a>
-## [master](https://github.com/sth/testing-streams/tree/master), ([compare to v0.2.0](https://github.com/sth/testing-streams/compare/v0.2.0...master))
+<a name="v0.2.1"></a>
+## [v0.2.1](https://github.com/sth/testing-streams/tree/v0.2.1), 2021-06-18 ([compare to v0.2.0](https://github.com/sth/testing-streams/compare/v0.2.0...v0.2.1))
 
+* Upgrade dependencies ([541d614](https://github.com/sth/testing-streams/commit/541d61400168323335e03510a98e44f270e588cb))
+* Merge pull request [#7](https://github.com/sth/testing-streams/issues/7) from sth/dependabot/npm_and_yarn/normalize-url-4.5.1 ([b3f7531](https://github.com/sth/testing-streams/commit/b3f753197c643de2fdaef2ef09e839ab08ced65b))
+* Bump normalize-url from 4.5.0 to 4.5.1 ([706e618](https://github.com/sth/testing-streams/commit/706e61834dab2d333677c5a89d954c62aff318c0))
+* Merge pull request [#6](https://github.com/sth/testing-streams/issues/6) from sth/dependabot/npm_and_yarn/browserslist-4.16.6 ([e92d86e](https://github.com/sth/testing-streams/commit/e92d86e1204d575a04267a3beca1c13e9ae0a1b6))
+* Bump browserslist from 4.16.1 to 4.16.6 ([4c81060](https://github.com/sth/testing-streams/commit/4c81060d76bddd7389155619de3667d919e1fef6))
+* Merge pull request [#5](https://github.com/sth/testing-streams/issues/5) from sth/dependabot/npm_and_yarn/hosted-git-info-2.8.9 ([f0d656a](https://github.com/sth/testing-streams/commit/f0d656af27b5f09dc40ee41f735455735e30caa7))
+* Merge pull request [#4](https://github.com/sth/testing-streams/issues/4) from sth/dependabot/npm_and_yarn/lodash-4.17.21 ([efa1620](https://github.com/sth/testing-streams/commit/efa1620b05a563694634c6b786dc930f60e736c2))
+* Bump hosted-git-info from 2.8.8 to 2.8.9 ([e0a0d27](https://github.com/sth/testing-streams/commit/e0a0d273b93b19545bc59ca62295794230d446f8))
+* Bump lodash from 4.17.20 to 4.17.21 ([b9c20e7](https://github.com/sth/testing-streams/commit/b9c20e7d73f30894d016e05477e2f968c0b41236))
+* Add testing for node v16 ([a930e49](https://github.com/sth/testing-streams/commit/a930e496a40943a8b9be9c2e326ce8065bdffd80))
+* Ignore unnecessary files when packaging ([3532a4f](https://github.com/sth/testing-streams/commit/3532a4f8168939b3cf573f02ace054020f434209))
+* Moce changelog helpers for .chglog/ ([c359960](https://github.com/sth/testing-streams/commit/c359960f4a4fa1fa154eeb6ed3869390d9f538ea))
 * Add testing for pull requests ([c792ae5](https://github.com/sth/testing-streams/commit/c792ae52741b87afe71cbcff9b606f8e88320c10))
 * Use v2 actions ([7b72f71](https://github.com/sth/testing-streams/commit/7b72f716b4c38284e6462073870243b49214dad5))
 
