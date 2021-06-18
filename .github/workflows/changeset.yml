@@ -15,7 +15,6 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
       - run: bash checknetwork.sh
-      - run: yarn --verbose install
+      - run: yarn --verbose install || cat error.log && exit 1
       - run: yarn build
       - run: yarn test
-    post: cat yarn-error.log
