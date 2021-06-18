@@ -6,7 +6,7 @@ jobs:
     name: Run tests
     strategy:
       matrix:
-        os: [ubuntu-18.04, ubuntu-20.04, macos-latest, windows-latest]
+        os: [macos-latest]
         node: [10, 12, 14, 15, 16]
     runs-on: ${{ matrix.os }}
     steps:
@@ -14,6 +14,8 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: ${{ matrix.node }}
+      - run: ifconfig
+      - run: traceroute registry.yarnpkg.com
       - run: yarn install
       - run: yarn build
       - run: yarn test
