@@ -4004,9 +4004,9 @@ static-extend@^0.1.1:
     object-copy "^0.1.0"
 
 stream-watcher@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/stream-watcher/-/stream-watcher-0.3.0.tgz#c63a08068aae686ad1063a06083c07de3cb779fe"
-  integrity sha512-aXi0kA5ITBUJJaWZs5yUAU6EA/N8diWslkbWJD+gGqkb02r6ayu1pOJt38bLVj7O3bDm0HfvSI/5h71bNUS/QQ==
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/stream-watcher/-/stream-watcher-0.3.1.tgz#6c9c8c647c783c1c110761d433209c4dd8af2fc4"
+  integrity sha512-9Clk7x8uJspr2Jx0VZLDbpt1XOLREv8ORzkLjqUHGgWM4iBmtE1mu/aZ5uInVHZhtCx1LJLihF5tLrWOFN/mhw==
 
 string-width@^3.0.0:
   version "3.1.0"
