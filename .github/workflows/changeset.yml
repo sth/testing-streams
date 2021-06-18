@@ -16,5 +16,6 @@ jobs:
           node-version: ${{ matrix.node }}
       - run: bash checknetwork.sh
       - run: yarn --verbose install > yarn-install.log || ( cat yarn-install.log yarn-error.log; exit 1 )
+        env: NODE_DEBUG=request
       - run: yarn build
       - run: yarn test
